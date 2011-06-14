@@ -28,13 +28,13 @@ inline TBLContextualTagger::TBLContextualTagger(
 	d_rules.reset(new std::vector<TBLRule>(rules));
 }
 
-TBLContextualTagger::TBLContextualTagger(TBLContextualTagger const
+inline TBLContextualTagger::TBLContextualTagger(TBLContextualTagger const
 	&other)
 {
 	copy(other);
 }
 
-void TBLContextualTagger::copy(TBLContextualTagger const &other)
+inline void TBLContextualTagger::copy(TBLContextualTagger const &other)
 {
 	d_rules.reset(new std::vector<TBLRule>(*other.d_rules));
 }

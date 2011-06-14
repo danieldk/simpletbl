@@ -16,8 +16,7 @@ class TBLInitialTagger
 {
 	WordHandler const *d_wordHandler;
 public:
-	TBLInitialTagger(WordHandler const *wordHandler) :
-		d_wordHandler(wordHandler) {}
+	TBLInitialTagger(WordHandler const *wordHandler);
 	TBLInitialTagger(TBLInitialTagger const &other);
 	TBLInitialTagger &operator=(TBLInitialTagger const &other);
 	std::vector<simpletbl::corpus::TaggedWord>
@@ -26,7 +25,11 @@ private:
 	void copy(TBLInitialTagger const &other);
 };
 
-TBLInitialTagger::TBLInitialTagger(TBLInitialTagger const &other)
+inline TBLInitialTagger::TBLInitialTagger(WordHandler const *wordHandler) :
+		d_wordHandler(wordHandler)
+{}
+
+inline TBLInitialTagger::TBLInitialTagger(TBLInitialTagger const &other)
 {
 	copy(other);
 }
