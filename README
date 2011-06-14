@@ -9,11 +9,14 @@ in C++. simpletbl can automatically learn rules from a POS-tagged
 corpus, given a set of rule templates. The rules that are produced
 can subsequently be used to tag arbitrary text.
 
-simpletbl is licensed under the LGPL version 3, this license can
-be found in the COPYING.LESSER file.
+== Warning ==
+
+I found this source code my archive, and am making it available for
+illustrative purposes only. I do not intend to maintain it.
 
 == Building simpletbl ==
 
-simpletbl can be built using the scons build tool. On GNU/Linux and
-OS/X, you can simply run 'scons' in the top-level directory, and
-a simpletbl library will be built, as well as some utility programs.
+simpletbl can be built using the cmake build tool. On GNU/Linux and
+OS/X, you can simply run 'cmake' in the top-level directory, followed
+by 'make', and a simpletbl library will be built, as well as some utility
+programs.
