@@ -1,5 +1,0 @@
-Import('buildEnv')
-
-buildEnv.Program('brill-learn', 'brill-learn.cpp', LIBS = ['simpletbl'])
-buildEnv.Program('make-lexicon', 'make-lexicon.cpp', LIBS = ['simpletbl'])
-buildEnv.Program('tbl-evaluate', 'tbl-evaluate.cpp', LIBS = ['simpletbl'])
