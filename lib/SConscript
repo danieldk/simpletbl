@@ -1,0 +1,15 @@
+Import('buildEnv')
+
+sources = Split("""
+	corpus/BrownCorpusReader.cpp
+	tbl/TBLContextualTagger.cpp
+	tbl/TBLInitialTagger.cpp
+	tbl/TBLLearner.cpp
+	tbl/TBLRule.cpp
+	tbl/TBLRuleGenerator.cpp
+	wordhandler/DummyWordHandler.cpp
+	wordhandler/KnownWordHandler.cpp
+""")
+
+buildEnv.SharedLibrary('simpletbl', sources)
+buildEnv.StaticLibrary('simpletbl', sources)

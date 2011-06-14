@@ -1,0 +1,15 @@
+#include <algorithm>
+#include <map>
+#include <memory>
+#include <string>
+#include <utility>
+#include <vector>
+
+#include <simpletbl/corpus/Sentence.hh>
+#include <simpletbl/tbl/TBLLearner.hh>
+#include <simpletbl/tbl/TBLRule.hh>
+#include <simpletbl/tbl/TBLRuleGenerator.hh>
+
+using namespace std;
+using namespace simpletbl::corpus;
+using namespace simpletbl::tagger;

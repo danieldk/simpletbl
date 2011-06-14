@@ -1,0 +1,13 @@
+#include <algorithm>
+#include <iterator>
+#include <map>
+#include <set>
+#include <vector>
+
+#include <simpletbl/corpus/Sentence.hh>
+#include <simpletbl/tbl/TBLContextualTagger.hh>
+#include <simpletbl/tbl/TBLRule.hh>
+
+using namespace std;
+using namespace simpletbl::corpus;
+using namespace simpletbl::tagger;

@@ -1,0 +1,11 @@
+#include <istream>
+#include <string>
+#include <boost/algorithm/string/trim.hpp>
+
+#include <simpletbl/corpus/BrownCorpusReader.hh>
+#include <simpletbl/corpus/Corpus.hh>
+#include <simpletbl/corpus/Sentence.hh>
+
+using namespace std;
+using namespace boost;
+using namespace simpletbl::corpus;

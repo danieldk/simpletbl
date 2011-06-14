@@ -1,0 +1,10 @@
+#include <cctype>
+#include <string>
+#include <utility>
+
+#include <simpletbl/wordhandler/DummyWordHandler.hh>
+#include <simpletbl/wordhandler/WordHandler.hh>
+
+using namespace std;
+using namespace simpletbl::tagger;
+

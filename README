@@ -1,0 +1,19 @@
+= simpletbl - a simple transformation-based learner/tagger =
+
+Copyright (c) 2008 Daniel de Kok
+
+== Introduction ==
+
+simpletbl is a simple transformation-based learner and tagger written
+in C++. simpletbl can automatically learn rules from a POS-tagged
+corpus, given a set of rule templates. The rules that are produced
+can subsequently be used to tag arbitrary text.
+
+simpletbl is licensed under the LGPL version 3, this license can
+be found in the COPYING.LESSER file.
+
+== Building simpletbl ==
+
+simpletbl can be built using the scons build tool. On GNU/Linux and
+OS/X, you can simply run 'scons' in the top-level directory, and
+a simpletbl library will be built, as well as some utility programs.

@@ -1,0 +1,8 @@
+#include <vector>
+
+#include <simpletbl/corpus/Sentence.hh>
+#include <simpletbl/tbl/TBLInitialTagger.hh>
+
+using namespace std;
+using namespace simpletbl::corpus;
+using namespace simpletbl::tagger;

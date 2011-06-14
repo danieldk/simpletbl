@@ -1,0 +1,9 @@
+#include <set>
+#include <string>
+
+#include <simpletbl/corpus/Sentence.hh>
+#include <simpletbl/tbl/TBLRule.hh>
+
+using namespace std;
+using namespace simpletbl::corpus;
+using namespace simpletbl::tagger;
